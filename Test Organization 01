@@ -1,0 +1,52 @@
+- Poin BElajar
+
+* Risk Management
+* Test Monitoring, Test Control and Test Completion
+* Test Case Management
+
+Risk Management
+
+- Organisasi menghadapi banyak faktor internal dan eksternal yang membuat tidak pasti apakah dan kapan mereka akan mencapai tujuan mereka (ISO 31000).
+  Manajemen risiko memungkinkan organisasi untuk meningkatkan kemungkinan mencapai tujuan, meningkatkan kualitas produk mereka, dan meningkatkan kepercayaan dan kepercayaan pemeangku kepentingan.
+  kegitatn utama manajemen risiko meliputi:
+
+* Risk Analysis (terdiri dari identifikasi risiko dan penilaian risiko)
+* Risk Control (teridri dari mitigasi dan pemantauan risiko)
+  pendekatan pengujian, di mana kegiatan pengujian dipilih, diprioritaskan, dan dikelola berdasarkan analisis risiko dan kendali risiko, disebut pengujian berbasis risiko.
+
+Risk Definition and Risk Attributes
+
+- Risiko adalah peristiwa potensial, bahaya, ancaman, atau situasi yang jika terjadi dapat menyebakan dampak yang merugikan. Risiko dapat dikarakterisasi oleh dua faktor:
+
+* Risk Likeihood - probalibilitas terjadinya risiko (lebih besar dari nol dan kurang dari satu)
+* Risk Impact (harm) - konsekuensi dari terjadinya risiko
+
+Project Risk
+
+- Dalam pengujian perangkat lunak, umumnya terdapat dua jenis yang menjadi perhatian utama, yaitu risiko proyek dan risiko produk. Risikoproyek berkatian dengan manajemen dan pengendalian proyek, Risiko proyek melibatkan:
+
+* Masalah organisasional (misalnya,keterlambatan dalam pengiriman produk, perkiraan yang tidak akurat,pemangkasan biaya)
+* Masalah personal ( misalnya, keterampilan yang tidak mencukupi, konflik, masalah komunikasi, kekurangan staf)
+* Masalah teknis (misalnya, perluasan cakupan, dukungan alat yangn uruk)
+* Masalah pemasok (misalnya, kegagalan pengiriman dari pihak ketiga, kebangkrutan perusahaan pendukung)
+
+Risiko proyek, jika terjadi, dapat berdampak pada jadwal, anggaran, atau cakupan proyek, yang memengaruhi kemampuan proyek untuk mencapai tujuanya
+
+Risiko produk berkaitan dengan karakterisktik kualitas produk (seperti yang ijelaskan dalam model kualitas ISO 25010). contoh risiko produk termasuk: fungsi yang hilang atau salah, penghitungan yang tidak benar, kesalahan waktu eksekusi, arsitektur yang buru, user experience yang uruk, kerentanan keamana, risiko produk, jika terjadi, dapat menyebabkan berbagai konsekuensi negati, termasuk:
+
+- User dissatisfaction
+- Loss of revenue, trust, reputation
+- Damage to third parties
+- High maintenace costs, overload of the helpdesk
+- Criminal penalties
+- In extreme cases, physical damage, injuries or even death
+
+Product Rsik Analysis
+
+- tentukan testing scope yang akan dilakukan
+- Tentukan test design yang akakn dilakukan
+- Tentukan teknik tes yang akan digunakan dan cakupan yang akan dicapai
+- Estimasi waktu tes yang diperlukan unutk setiap task
+- Prioritaskan pengujian untuk menemukan critical defect secepat mungkin
+- Tentukan apakah ada kegiatan tambahan selain testing yang dapat
+  digunakan untuk mengurangi risiko
