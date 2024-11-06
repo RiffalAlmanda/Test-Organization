@@ -1,0 +1,55 @@
+Test Monitoring, Test Control and Test Completion
+
+Test Monitoring
+
+- Test Monitoring berkaitan dengan pengumpulan informasi tentang pengujian.
+  informasi ini digunakan untuk menilai kemajuan pengujian dan mengukur apakah
+  kriteria ekluar pengujian atau tugas pengujian yang terkait dengan kriteria keluar terpenuhi, seperti mencapai target cakupan risiko produk, persyaratan, atau kriteria penerimaan.
+
+Test Control
+
+- Test control menggunakan informasi dari test monitoring untuk emberikan arahan kontrol panduan, dan tindakan korektif yang di perlukan untuk mencapai pengujian yang paling efektif dan efisien.
+
+Contoh Arahan Kontrol Meliputi:
+
+- MEngubah prioritas pengujian ketika risiko yang diidentifikasi menjadi masalah
+- Mengevaluasi kembali apakah suatu item pengujian memenuhi kriteria masuk atau kriteria keluar karena pekerjaan ulang
+- Menyesuaikan jadwal pengujian untuk mengatasi keterlambatan dalam pengiriman lingkungan pengujian
+- Menambahkan sumber daya baru saat dan di mana diperlukan.
+
+Metrics yang digunakan pada testing
+
+- Projejct progress metrics (e.g task completion, resource usagae,test effort)
+- Test progress metrics (e.g case implementation progress, test environment preparation progress, number of test cases run.not run, passed/failed, test execution time)
+- Product quality metrics (e.g availabity, response time, mean time to failure)
+- Defect metrics (e.g number and priorities of defect found/fixed,defect density, defect detection percentage)
+- Risk metrics (e.g residual risk level)
+- Coverage metrics (e/g requirement coverage, code coverage)
+- Cost metrics (e.g cost of testing, organization cost of quality)
+
+Selama pemantauan dan test control, tem pengujian menghasilkan laporan kemajuan testing unutk stakeholder agar mereka tetap terinformai. laporan kemajuan panegujian biasanya dihasilkan secara berkala (misalnya, harian, mingguan, dll.) dan mencakup:
+
+- Test period
+- Test progress (e.g ahead or behind schedule), including any notable deviations
+- Impediments for testing, and their workarounds
+- Test Metrics
+- New and changed risk within testing period
+- Testing planned for the next period
+
+Yang termasuk tipikal laporan test completion
+
+- Test summary
+- Testing anda product quality evaluation based on the original plan (i.e,.test objectives and exid criteria)
+  \*Deviations from the test plan (e.g., differences from the planned schedule, duration, and effort).
+- Testing impediments anda workarounds
+- Test metrics based on the test progress reports
+- Unmitigated risk, defect not fixed
+- Lessons learned that are relevant to the testing
+
+Sarana terbaik untuk mengkomunikasikan status pengujian bervariasi tergantung pada kekhawatiran manajemen pengujian, strategi pengujian organisasi, standar regulasi atau, dalam kass tim yang mandiri, pada tim itu sendiri. Piliha ntersebut meliputi:
+
+- Verbal communication with team members and others stakeholders
+- Dashboard (e.g, CI/CD dashborad, task boards, and burn-down charts)
+- Electronic communication channels (e.g., email, chat)
+- Online documentation
+- Formal test reports
