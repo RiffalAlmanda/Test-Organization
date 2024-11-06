@@ -1,0 +1,53 @@
+Test Case Management
+Test Plan
+-Sebuah dokumen yang menjelaskan ruang lingkup, pendekatan, sumber daya dan jadwal kegiatan pengujian yang di maksudkan.
+ini mengindentifikasikan:
+
+- soal tes, fitur yang akan di uji, tugas pengujian
+- siapa yang akan melakukan setiap tugas,tingkat independsi penguji
+- lingkungan pengujian
+- teknik desain tes
+- kriteria masuuk dan keluar yang akan digunakan
+- setiap risiko yang memerlukan perencanaan kontinjensi
+
+Tipe test plans
+
+- Master Test Plan: Satu rencana pengujian tingkat tingi untuk suatu proyek/produk yang menyatukan semua rencana pengujian lainya.
+
+- Phase/Testing Level Spesific: Rencana pengujian unutk setiap tingkat pengujian:
+
+* Unit Test Plan
+
+- Integration Test Plan
+- System Test Plan
+- Acceptance Test Plan
+- Testing Type Spesific: Rencana pengujian unutk jenis pengujian tertentu seperti rencana uji kinerja dan rencana uji keamanan.
+
+Test Suite
+
+- Serangkaian kasus pengujian, skrip pengujian, atau prosedut pengujian yang akan dijalankan dalam pengujian yang dijalankan tertentu. Rangkaian pengujian memungkinkan anda mengategorikannya dengan cara yang sesuai dengan ebutuhan perencanaan atau analisis anda
+  Contoh rangkaian pengujian untuk membeli suatu produk dapat terdiri dari kasus pengujian berikut:
+
+* Test Case 1: Login
+* Test Case 2: Add Products
+* Test Case 3: Checkout
+* Test Case 4: Logout
+
+Test Case
+Serangkaian prakondisi, masukan, tindakan(jika berlaku). hasil yang diharapkan, dan pascakondisi, dikembangkan berdasarkan kondisi pengujian
+
+- level tinggi kasus uji: Kasus uji prakondisi abstrak, data masukan, hasil yang diharapkan, pascakodisi, dan tindakan (jika berlaku).
+- level rendah kasus uji: Kasus uji dengan nilai konkrit untuk preconditions, data masukan, hasil yang diharapkan, dan pascakondisi, dan detailed description od tindakan (jika berlaku)
+
+Test Data
+
+- Data dapat dimuat sebelumnya dalam sistem atau dimasukan oleh penguji atau alat otomatisasi pengujian selama pelaksanaan pengujian
+
+* Test data preparation: Aktivitas memilih data dari database yang ada atau membuat, menghasilkan, memanipulasi dan mengedit data untuk pengujian.
+* test data preparation tool: Jenis alat pengujian yang memungkinkan data dipilih dari database yang ada atau dibuat, dihasilkan, dimanipulasi, dan diedit untuk digunakan dalam pengujian.
+
+Keterbatasan
+
+- Data sensitif privasi atau informasi identifikasi pribadi (PII) seharusnya bukan diguanakan dalam data uji
+
+- Jika anda harus menggunkan data nyata/produksi, anda harus menganonimkan/membatalkan identifikasi data sebelum pengujian.
